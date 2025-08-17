@@ -21,12 +21,12 @@ This is a **Node.js app** that acts as a personal “Custom GPT” for generatin
 ## Project Structure
 
 qa-testcase-generator/
-├─ app.js # Main server
-├─ promptTemplates.js # Reusable GPT prompts
-├─ package.json
-├─ .env # OpenAI API key
-├─ public/ # Optional browser UI
-│ └─ index.html
+├── app.js # Main server
+├── promptTemplates.js # Reusable GPT prompts
+├── package.json
+├── .env # OpenAI API key
+└── public/ # Optional browser UI
+└── index.html
 
 ---
 
@@ -56,8 +56,9 @@ qa-testcase-generator/
 5. Test the server from Terminal
 
 - open a new terminal after run the server
-- run the following curl comman 
-```curl -X POST http://localhost:3000/generate-testcases \
+- run the following curl command
+```
+curl -X POST http://localhost:3000/generate-testcases \
 -H "Content-Type: application/json" \
 -d '{"requirement":"User can log in with email and password"}'
 ```
