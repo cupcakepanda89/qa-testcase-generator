@@ -19,7 +19,7 @@ This is a **Node.js app** that acts as a personal “Custom GPT” for generatin
 ---
 
 ## Project Structure
-
+```
 - qa-testcase-generator
     - app.js # Main server
     - promptTemplates.js # Reusable GPT prompts
@@ -27,14 +27,14 @@ This is a **Node.js app** that acts as a personal “Custom GPT” for generatin
     - .env # OpenAI API key
     - public # Optional browser UI
         - index.html
-
+```
 ---
 
 ## Setup
 
 1. **Clone the repo**
 
-- git clone <repo-url>
+- git clone https://github.com/cupcakepanda89/qa-testcase-generator.git
 - cd qa-testcase-generator
 
 2. Install dependencies
@@ -43,7 +43,7 @@ This is a **Node.js app** that acts as a personal “Custom GPT” for generatin
 
 3. Create or update .env file with your OpenAI API key
 
-- `OPENAI_API_KEY=sk-your-personal-key-here`
+- `OPENAI_API_KEY=your-openapi-key-here`
 
 4. Run the server
 
