@@ -1,0 +1,8 @@
+Type,Name,Steps,Expected Result
+positive,Valid login with correct email and password,Navigate to the login page - Enter a valid email address - Enter the correct password - Click on the login button,User is successfully logged in and redirected to the dashboard
+negative,Invalid login with incorrect password,Navigate to the login page - Enter a valid email address - Enter an incorrect password - Click on the login button,Error message is displayed indicating invalid credentials
+negative,Invalid login with unregistered email,Navigate to the login page - Enter an unregistered email address - Enter any password - Click on the login button,Error message is displayed indicating user not found
+negative,Login with empty email and password fields,Navigate to the login page - Leave the email field empty - Leave the password field empty - Click on the login button,Error message is displayed indicating fields cannot be empty
+negative,Login with invalid email format,Navigate to the login page - Enter an invalid email format - Enter any password - Click on the login button,Error message is displayed indicating invalid email format
+regression,Login functionality after password reset,Reset the password for a registered email - Navigate to the login page - Enter the registered email address - Enter the new password - Click on the login button,User is successfully logged in and redirected to the dashboard
+regression,Login functionality with remembered credentials,Navigate to the login page - Check the 'Remember Me' option - Enter a valid email address - Enter the correct password - Click on the login button - Log out - Navigate back to the login page,Email field is pre-filled with the remembered email address
