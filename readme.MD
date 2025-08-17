@@ -20,13 +20,13 @@ This is a **Node.js app** that acts as a personal “Custom GPT” for generatin
 
 ## Project Structure
 
-qa-testcase-generator/
-├── app.js # Main server
-├── promptTemplates.js # Reusable GPT prompts
-├── package.json
-├── .env # OpenAI API key
-└── public/ # Optional browser UI
-└── index.html
+- qa-testcase-generator
+    - app.js # Main server
+    - promptTemplates.js # Reusable GPT prompts
+    - package.json
+    - .env # OpenAI API key
+    - public # Optional browser UI
+        - index.html
 
 ---
 
